@@ -2,7 +2,7 @@ import express from "express";
 import IMDB from "./imdb.min.js";
 import cors from "cors";
 
-const PORT = 5000;
+const PORT = 5000 || 6050 || 4020 || 4000;
 const app = express();
 app.use(express.json());
 app.use(cors());
