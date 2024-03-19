@@ -1,5 +1,5 @@
 
-# IMDb API Wrapper
+# IMDb API Scrapper
 
 This project is a simple IMDb API wrapper built with Express.js, Axios, and Cheerio. It allows users to retrieve movie or TV show information by either IMDb ID or IMDb URL.
 
@@ -18,7 +18,7 @@ Before running this project, ensure you have the following installed:
 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/sribalan98/imbd-scraper.git
+  git clone https://github.com/sribalan98/imbd-scrapper.git
 ```
 
 2. Install dependencies:
