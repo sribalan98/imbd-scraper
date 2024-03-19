@@ -18,7 +18,7 @@ Before running this project, ensure you have the following installed:
 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/sribalan98/imbd-scraper.git
+  git clone https://github.com/sribalan98/imbd-scrapper.git
 ```
 
 2. Install dependencies:
