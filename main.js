@@ -18,7 +18,7 @@ app.post("/getByID", async (req, res) => {
 
   try {
     const result = await imdb.get_by_id(id);
-    res.send(result);
+    res.send(JSON.stringify(result));
   } catch (error) {
     console.error(error);
     res.status(500).send({ error: "An error occurred" });
@@ -32,7 +32,7 @@ app.post("/getByURL", async (req, res) => {
   }
   try {
     const result = await imdb.get_by_url(url);
-    res.send(result);
+    res.send(JSON.stringify(result));
   } catch (error) {
     console.error(error);
     res.status(500).send({ error: "An error occurred" });
